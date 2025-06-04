@@ -1,6 +1,11 @@
 #!/bin/bash
+# Script to display CPU load, memory usage, and disk space
 
-# Display the current cpu activity level, free memory, and free disk space.
+echo "CPU Load:"
+uptime
 
-# CPU Actvity Level
+echo -e "\nFree Memory:"
+free -h
 
+echo -e "\nDisk Space:"
+df -h
